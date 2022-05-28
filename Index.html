@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+    <script crossorigin="anonymous"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            $("#Header").load("./Header.php");
+            $("#Footer").load("./Footer.html");
+        });
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="Index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ScheduLearn</title>
+</head>
+<body>
+<div id="Header"></div>
+<div class="col-12 container pt-5">
+    <div class="row justify-content-evenly">
+        <div class="col-lg-3 text-center">
+            <img src ="MachineLearning.jpg" class="rounded-circle" width="128" height="128">
+            <h2>Machine Learning</h2>
+            <p>Our system is using Machine Learning.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-3 text-center">
+            <img src ="HappyCustomer.jpg" class="rounded-circle" width="128" height="128">
+            <h2>Happy Customers</h2>
+            <p>Our main objective is %100 customer happiness.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-3 text-center">
+            <img src ="Schedule.jpg" class="rounded-circle" width="128" height="128">
+            <h2>Scheduling</h2>
+            <p>We make your life easier.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+    </div>
+</div>
+<div id="Footer"></div>
+</body>
+</html>
